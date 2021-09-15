@@ -1,0 +1,39 @@
+
+#main-nav ul{
+    background-color: rgb(54 58 57);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+#main-nav ul li{
+    margin-left: 10px;
+}
+#main-nav li a{
+    color: #fff;
+    display: block;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+    
+#main-nav li a:hover {
+    background-color: #fff;
+    color:  rgb(54 58 57);
+}
+.img-header{
+    width: 100%;
+    margin-top: 30px;
+}
+/**/
+.tab-bar{
+    background-color: aqua;
+}
+#sub-nav li a{
+    display: inline-block;
+    /* width: 50%; */
+}
+.sub-slider{
+    margin-top: 20px;
+    width:50%;
+}
